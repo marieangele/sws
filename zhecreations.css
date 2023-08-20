@@ -1,0 +1,221 @@
+header{
+display: flex;
+}
+
+.machine{
+  text-align: center;
+  color: green; 
+}
+
+.colorat{
+  color: purple;
+}
+
+.ia{
+  justify-content: space-around;
+  border: 3px solid blue;
+  border-radius: 20px;
+}
+
+.ib{
+  justify-content: space-around ;
+  border: 3px solid blue;
+  border-radius: 20px;
+  width: 1500px; ;
+}
+ 
+.ic{
+  justify-content: space-around;
+  border: 3px solid blue;
+  border-radius: 20px;
+}
+
+.accueil{
+text-align: center;
+color: red;
+border: 1px double blue;
+border-radius: 8px;
+padding: 0%;
+}
+
+.apropos1{
+  text-align: center;
+  border: 1px dotted blue;
+  border-radius: 10px;
+  padding: 0%;
+  position: static;
+  }
+
+  .apropos2{
+    text-align: justify;
+    color: black;  
+    }
+
+    .dir1{
+      border: 1px dashed blue;
+      border-radius: 10px;
+      width: 250px;
+      padding: 0%;
+      position: static;
+    }
+
+    .dir2{
+      text-align: justify;
+      color: blue; 
+    }
+
+    .creation1{
+      text-align: center;
+      color: red;
+      }
+.colorp{
+  color: black;
+}
+
+.imgcre{
+  border: 3px solid red;
+  border-radius: 10px; 
+}
+
+.client{
+ justify-content: space-around;
+ border: 3px solid red;
+ border-radius: 20px;
+}
+
+.event1{
+  text-align: center;
+  color: green;
+}
+.event2{
+  text-align: center;
+  color: green;
+  border: 3px solid purple;
+  border-radius: 20px;
+}
+.event3{
+  text-align:center;
+  color: #a3a1a1;
+}
+
+.event4{
+ justify-content: space-around;
+ border: 3px solid red;
+ border-radius: 20px;
+}
+
+.event5{
+  text-align: center;
+  color: gray;
+  
+}
+  
+.event6{
+  text-align: center;
+  color: green;
+}
+
+.event7{
+  justify-content: space-around;
+  border: 3px solid purple;
+  border-radius: 20px;
+ }
+ .event8{
+  text-align: center;
+  color: gray;
+}
+.event9{
+  justify-content: space-around;
+  border: 3px solid yellow;
+  border-radius: 20px;
+}
+ 
+.event10{
+  text-align: center;
+  color: green;
+  border: 3px solid palevioletred;
+  border-radius: 20px;  
+}
+
+.event11{
+  text-align: center;
+  color: gray;
+  
+}
+
+.event12{
+  justify-content: space-around;
+  border: 3px solid purple;
+  border-radius: 20px;
+ }
+
+/**/
+
+.menu{
+  display: flex;
+  position: absolute;
+  padding: 0%;
+  margin: 0%;
+  height: 50px;
+
+    }
+
+.menu li{
+    list-style-type: none;
+    float: right;
+    height: auto;
+    width: 135.8px;
+    text-align: center;
+    font: normal bold 13px/1em Arial, Verdana, Helvetica;
+    padding: 0;
+    margin: 0;
+    }
+.menu a {
+    display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */   
+    margin: 0.5rem;               /* Marges externes (1 valeurs = 4 directions) */
+    padding: 0.4rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    text-align: center;           /* Centrage du texte */           background-color: #1ABC9C;    /* Couleur d'arrière-plan */
+    color: white;                  /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+    border: 1px solid #fff;       /* Ajout d'une bordure */
+    border-radius: 4px;           /* Arrondis des bordures */
+    transition: all 2s ;          /* Ajout des effets de transition */
+    }
+
+.menu a:hover,
+li:hover
+{
+    background-color: #ed2794;
+    color: #ffe843;
+    border-color: #ffe843;
+      }
+
+      .menu li ul {
+        display: none;
+        height: auto;
+        margin: 0;
+        padding: 0;
+      }
+
+      .menu li:hover ul {
+        display: block;
+      }
+
+      .menu li ul li {
+        background-color: #ed2794;
+      }
+
+      .menu li ul li a {
+        border-left: 1px solid #ed2794;
+        border-right: 1px solid #ed2794;
+        border-top: 1px solid #c9d4d8;
+        border-bottom: 1px solid #ed2794;
+      }
+
+      .menu li ul li a:hover {
+        background-color: #a3a1a1;
+      }
+      .{
+        
+      }
